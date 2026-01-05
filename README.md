@@ -42,7 +42,7 @@ DB_USER=root
 DB_PASS=
 DB_NAME=shop_db
 
-5. Jalankan Aplikasi
+6. Jalankan Aplikasi
 npm run dev
 Buka di browser:
 http://localhost:3000/admin/products
