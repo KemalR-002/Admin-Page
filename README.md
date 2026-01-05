@@ -52,11 +52,11 @@ http://localhost:3000/admin/products
 
 ⚙️ Panduan Penggunaan Aplikasi
 
-1. Halaman Produk - Menampilkan daftar produk dan stok.
+1. Halaman Produk
+= Menampilkan daftar produk dan stok. 
 Klik tombol Beli untuk melakukan pembelian.
-URL:
 
-/admin/products
+URL: /admin/products
 
 3. Input Pembelian
 - Pilih produk
