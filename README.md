@@ -1,3 +1,5 @@
+# Admin Page
+
 Project ini merupakan sistem admin sederhana untuk:
 - Input data pembelian produk
 - Cancel pembelian oleh admin
@@ -38,13 +40,15 @@ File SQL sudah berisi:
 4. Konfigurasi Environment
 Copy file .env.example menjadi .env, lalu sesuaikan:
 
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=
-DB_NAME=shop_db
+`` DB_HOST=localhost ``<br>
+`` DB_USER=root ``<br>
+`` DB_PASS= ``<br>
+`` DB_NAME=shop_db ``<br>
 
-6. Jalankan Aplikasi
+5. Jalankan Aplikasi
+   
 npm run dev
+
 Buka di browser:
 http://localhost:3000/admin/products
 
@@ -52,13 +56,13 @@ http://localhost:3000/admin/products
 
 ⚙️ Panduan Penggunaan Aplikasi
 
-1. Halaman Produk
-= Menampilkan daftar produk dan stok. 
+1. Halaman Produk <br>
+= Menampilkan daftar produk dan stok. <br>
 Klik tombol Beli untuk melakukan pembelian.
 
 URL: /admin/products
 
-3. Input Pembelian
+2. Input Pembelian
 - Pilih produk
 - Masukkan jumlah pembelian
 - Klik Beli
@@ -81,3 +85,5 @@ URL: /admin/products
 👤 Author
 
 Kemal Raisya Badrian
+
+---
