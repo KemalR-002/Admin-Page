@@ -1,0 +1,15 @@
+<h2>Tambah Pembelian</h2>
+
+<form method="POST" action="/admin/purchase">
+  <select name="product_id">
+    <% products.forEach(p => { %>
+      <option value="<%= p.id %>"
+        <%= p.id == selectedProduct ? "selected" : "" %>>
+        <%= p.name %>
+      </option>
+    <% }) %>
+  </select>
+
+  <input type="number" name="quantity" placeholder="Jumlah" required />
+  <button type="submit">Beli</button>
+</form>

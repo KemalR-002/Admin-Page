@@ -1,0 +1,12 @@
+<h2>Data Pembelian</h2>
+<ul>
+  <% purchases.forEach(p => { %>
+    <li>
+      <%= p.name %> - Qty: <%= p.quantity %> ||
+      <a href="/admin/purchase/cancel/<%= p.id %>">Cancel</a>
+    </li>
+  <% }) %>
+</ul>
+
+<a href="/admin/purchase/add">Tambah Pembelian</a>
+<a href="/admin/products">Cek produk</a>
