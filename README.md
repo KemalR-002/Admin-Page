@@ -37,6 +37,7 @@ File SQL sudah berisi:
 
 4. Konfigurasi Environment
 Copy file .env.example menjadi .env, lalu sesuaikan:
+
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=
@@ -51,9 +52,10 @@ http://localhost:3000/admin/products
 
 ⚙️ Panduan Penggunaan Aplikasi
 
-1. Halaman Produk - Menampilkan daftar produk dan stok
-Klik tombol Beli untuk melakukan pembelian
+1. Halaman Produk - Menampilkan daftar produk dan stok.
+Klik tombol Beli untuk melakukan pembelian.
 URL:
+
 /admin/products
 
 3. Input Pembelian
