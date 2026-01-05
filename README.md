@@ -70,11 +70,12 @@ URL:
 ---
 
 📌 Catatan
-Database tidak di-commit ke repository
-File SQL disediakan agar database dapat direplikasi
-UI dibuat sederhana dengan fokus pada fungsionalitas
+- Database tidak di-commit ke repository
+- File SQL disediakan agar database dapat direplikasi
+- UI dibuat sederhana dengan fokus pada fungsionalitas
 
 ---
 
 👤 Author
+
 Kemal Raisya Badrian
